@@ -17,7 +17,7 @@ Coding Challenge from: Hackerrank
 
 You are given an array of words and a string query. You must return true or false depending on whether the array of words contains the query or not.
 
-A query may contain the wildcard character "*" which can match with any character. If you're familiar with card games, think of the "*" as the Joker card which is also a wildcard and can represent any card in the deck.
+A query may contain the wildcard character `"*"` which can match with any character. If you're familiar with card games, think of the `"*"` as the Joker card which is also a wildcard and can represent any card in the deck.
 
 ```
 Examples
@@ -41,7 +41,7 @@ isMember(words, "*oom") // Is this true or false?
 
 ### Code
 
-Write a function `isMember` that takes an array of words and a string as arguments
+Write a function called `isMember` that takes an array of words and a string as arguments
 
 ```
 isMember(words, bam) //should be false
