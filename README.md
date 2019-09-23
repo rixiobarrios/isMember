@@ -47,7 +47,12 @@ isMember(words, "*oom") // Is this true or false?
 
 ### Code
 
-Write a function called `isMember` that takes an array of words and a string as arguments. isMember should return true if the string is a word in the array, and false if it is not.
+Write a function called `isMember` that takes an array of words and a string as arguments. isMember should return true if the string is a word in the array, and false if it is not.<br/>
+<br/>
+The function is expected to return a BOOLEAN.<br/>
+The function accepts the following parameters:<br/>
+-- 1. Array of strings<br/>
+-- 2. String
 
 ```
 isMember(words, bam) //should be false
