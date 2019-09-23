@@ -12,6 +12,12 @@ Coding Challenge from: Hackerrank
 
 ---
 
+##Setup
+1. Fork and clone this repo.
+2. Make an app.js file where you will write your solution.
+3. Check your solution using "node app.js" in your terminal.
+4. Submit a pull request with your solution!
+
 
 # Is this word a member word?
 
@@ -41,7 +47,7 @@ isMember(words, "*oom") // Is this true or false?
 
 ### Code
 
-Write a function called `isMember` that takes an array of words and a string as arguments
+Write a function called `isMember` that takes an array of words and a string as arguments. isMember should return true if the string is a word in the array, and false if it is not.
 
 ```
 isMember(words, bam) //should be false
@@ -51,7 +57,10 @@ isMember(words, *oo*) //should be true
 ```
 
 
+
+
+
 ### Was this TOO EASY?
-Make an account at <a href="https://hackerrank.com">Hackerrank</a> and sign up for their 30 Days of Code challenge to practice new coding challenges every day!
+Make an account at <a href="https://hackerrank.com" target="_blank">Hackerrank</a> and sign up for their 30 Days of Code challenge to practice new coding challenges every day!
 
 
