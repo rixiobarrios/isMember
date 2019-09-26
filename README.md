@@ -23,28 +23,6 @@ Coding Challenge from: Hackerrank
 
 You are given an array of words and a string query. You must return true or false depending on whether the array of words contains the query or not.
 
-A query may contain the wildcard character `"*"` which can match with any character. If you're familiar with card games, think of the `"*"` as the Joker card which is also a wildcard and can represent any card in the deck.
-
-```
-Examples
-
-words = ["bing", "bang", "boom"];
-
- 
-
-isMember(words, "bing") // true   (because 'bing' exists in the list of words)
-isMember(words, "hello") // false  (because 'hello' does NOT exists in the list of words)
-
-
-isMember(words, "ba*g") // true  (because the "*" matches the "n" in bang)
-isMember(words, "**") // false (no two letter words)
-
- 
-
-isMember(words, "*oom") // Is this true or false?
-```
-
-
 ### Code
 
 Write a function called `isMember` that takes an array of words and a string as arguments. isMember should return true if the string is a word in the array, and false if it is not.<br/>
@@ -53,6 +31,34 @@ The function is expected to return a BOOLEAN.<br/>
 The function accepts the following parameters:<br/>
 -- 1. Array of strings<br/>
 -- 2. String
+
+```
+Examples
+
+words = ["bing", "bang", "boom"];
+
+
+isMember(words, "bing") // true   (because 'bing' exists in the list of words)
+isMember(words, "hello") // false  (because 'hello' does NOT exists in the list of words)
+
+```
+
+
+
+
+###Bonus
+
+A query may contain the wildcard character `"*"` which can match with any character. If you're familiar with card games, think of the `"*"` as the Joker card which is also a wildcard and can represent any card in the deck.
+
+```
+isMember(words, "ba*g") // true  (because the "*" matches the "n" in bang)
+
+isMember(words, "**") // false (no two letter words)
+
+isMember(words, "*oom") // Is this true or false?
+```
+
+
 
 ```
 isMember(words, bam) //should be false
@@ -67,5 +73,3 @@ isMember(words, *oo*) //should be true
 
 ### Was this TOO EASY?
 Make an account at <a href="https://hackerrank.com" target="_blank">Hackerrank</a> and sign up for their 30 Days of Code challenge to practice new coding challenges every day!
-
-
