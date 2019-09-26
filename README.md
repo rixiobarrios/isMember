@@ -2,9 +2,9 @@
 
 
 ---
-Title: isMember Coding Challenge <br>
-Type: Homework <br>
-Duration: "0:45"<br>
+Title: Is this word a Member?<br>
+Type: Coding Challenge <br>
+Duration: "0:30"<br>
 Creator: Carlos Godoy <br>
 Competencies: Arrays, Loops, Breaking down a problem into smaller steps<br>
 Prerequisites: JavaScript Fundamentals<br>
