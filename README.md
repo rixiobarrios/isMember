@@ -46,7 +46,7 @@ isMember(words, "hello") // false  (because 'hello' does NOT exists in the list 
 
 
 
-###Bonus
+### Bonus
 
 A query may contain the wildcard character `"*"` which can match with any character. If you're familiar with card games, think of the `"*"` as the Joker card which is also a wildcard and can represent any card in the deck.
 
