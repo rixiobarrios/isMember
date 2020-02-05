@@ -16,8 +16,6 @@ Coding Challenge from: Hackerrank
 1. Fork and clone this repo.
 2. Make an app.js file where you will write your solution.
 3. Check your solution using "node app.js" in your terminal.
-4. Submit a pull request with your solution!
-
 
 # Is this word a member word?
 
